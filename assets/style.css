@@ -1,0 +1,36 @@
+* {
+  margin: 0%;
+  box-sizing: border-box;
+}
+html,
+body {
+  display: grid;
+  place-items: center;
+  height: 100%;
+  background-color: rgb(240, 237, 233);
+}
+.card {
+  width: 500px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 10px 10px 20px rgb(184, 174, 174),
+    -10px -15px 20px rgb(240, 237, 233);
+  border-radius: 20px;
+}
+.name,
+#counter {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+.counterBtn {
+  font-size: 20px;
+  /* outline: none; */
+  padding: 10px 20px;
+  margin: 0px 30px;
+  border-radius: 5px;
+  border: 0.1rem solid rgb(184, 174, 174);
+  cursor: pointer;
+}
